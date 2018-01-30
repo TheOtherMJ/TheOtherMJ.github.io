@@ -29,33 +29,74 @@
                         <h2 class="blog-post-title">Sample blog post</h2>
                         <p class="blog-post-meta">January 1, 2014</p>
 
-                        <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-                        <hr>
-                        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                        <blockquote>
-                            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        </blockquote>
-                        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                        <h2>Heading</h2>
-                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                        <h3>Sub-heading</h3>
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                        <pre><code>Example code block</code></pre>
-                        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-                        <h3>Sub-heading</h3>
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        <ul>
-                            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                            <li>Donec id elit non mi porta gravida at eget metus.</li>
-                            <li>Nulla vitae elit libero, a pharetra augue.</li>
-                        </ul>
-                        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-                        <ol>
-                            <li>Vestibulum id ligula porta felis euismod semper.</li>
-                            <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-                            <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-                        </ol>
-                        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+                        <p>Deciphered from ancient tablets carbon-dated back to around the fall of the Roman Empire, the C Programming Language was initially conceived as a means to calculate and maintain grain stores.
+
+Really though, C in an imperative programming language developed in Bell Laboratories (so named for the guy who invented the phones and stuff) from 1969 to 1973. Many languages today are either descended from C, such as C++, C# and Objective-C, or based on C syntax, such as Java, JavaScript and Perl. This is what’s known as a Legacy. Or, rather: the benefits of being really, really old.
+
+Before we get to C, let’s get in to a bit of Ancient History: 
+
+&emsp;&emsp; <b>The Predecessor of C, Or Rather, The Aptly Named B<b>
+
+B was developed by Ken Thompson, the original writer of the great granddaddy of all operating systems: UNIX. Thompson developed B, which had its own roots in ALGOL 60 (the 60 means it came out in 1960!), so that he could use it to rewrite his precious baby OS in a new lingo. At the time, UNIX was written in Assembly and was an absolute nightmare to use and maintain. Worse still, it only ran on their DEC PDP-7 computer, with a whopping 8K words of memory. However, if you consider the price tag of $454,242 it was relatively efficient for its price point. 
+
+B was considered to adhere to the ‘Worse Is Better’ software paradigm. This ‘It Tastes So Awful It Has to Be Good for You’ solution states that software which has less functionality but is easier to use may actually be more desirable to the end user. Coding in Assembly had more power than B, but the tradeoff was that B could be used by actual humans. 
+
+Thompson’s pal Dennis Ritchie later joined the project. The team managed to convince the higher-ups that they needed an upgrade for their half-million-dollar computer, and they were granted a PDP-11. At $120,000 it was an absolute steal. The team soon discovered their new UNIX operating system written in B was not suited to the PDP-11. A huge letdown.
+
+Rather than drag their PDP-7 (which would have weighed several hundred kilograms) out of storage, they decided to heavily rework B. Improving on their formula with their new language NB (New B), they produced excellent results. The dynamic duo eventually settled on the name of C, because New B just sounds kind of weak.
+
+C is a compiled language, as opposed to B, which was an interpreted language. Because of this, C had the ability to be deployed onto many platforms. Thompson and Ritchie had laid the foundation for one of the most significant developments of modern programming: 
+
+&emsp;&emsp;<b>Cross-Platform Portability!<b>
+
+One of the greatest strengths of C at the time was its ability to function on just about any computing system. As compilers for other computing platforms were developed, C code could be compiled and executed on those platforms with ease. Today, a variety of C compilers exist for every imaginable platform, making it one of the most widely used languages in the world, even after 46 years! Few platforms exist that do not have a C compiler. All because Thompson and Ritchie didn’t want to use their PDP-7 anymore. This brings us to the next topic:
+
+&emsp;&emsp;<b>You Keep Using That Word...<b>
+
+What even is a Compiler?
+
+In the strictest sense, a compiler is a special type of program that converts statements from one programming language into another language. Compilers for different languages behave differently, and can produce different output. The Java compiler – javac – takes in Java statements and converts them to bytecode. Bytecode is a special type of code that can be interpreted by the Java Virtual Machine, which converts the bytecode to actual machine code which can be executed by the CPU.
+
+C compilers, on the other hand, take a more direct approach. The C compiler will take statements written in C and convert them to machine code, which can be directly executed by the CPU. C compilers for a specific platform create machine code specifically for that platform. This presents a huge advantage in the performance of C compared to other high-level languages such as Java. Java bytecode has to work its way through a runtime environment (the JVM, in this case) before it ever gets to the CPU as machine code. And it pours through the JVM about as fast as cold molasses.
+
+&emsp;&emsp;<b>A Lesson in Abstraction<b>
+
+Java is considered a high-level language because it is by many orders abstracted from the base-level machine code. Abstractions are a fundamental concept in programming, because they are so useful to humans. Of course, performance would be great for programs written entirely in machine code, but these programs would be extremely tedious to produce. 
+
+Abstracting away the fine details of these machine instructions to produce human readable statements is incredibly helpful. Each applied abstraction can reduce away detail. However, as many abstractions are layered upon each other, such as the transition from Java Code > Java Compiler > Bytecode > JVM > Machine Code, performance tends to degrade. C language has relatively few abstractions, and is considered ‘Close to The Metal’. The long and short of it? C is fast.
+
+&emsp;&emsp;<b>Oh My God It’s Everywhere<b>
+
+Among its speed and efficiency, C sports features like Direct Memory Access which allow it to function capably as an operating system. Since compiled C code doesn’t need any fancy runtime environments or even an operating system to function (and it can run on bloody anything), C itself can form the backbone of any OS. In fact, nearly every device in our daily lives in in some ways powered by C.
+
+&emsp;Linux
+
+C forms the bulk of Linux – The Best Operating System – which is unsurprising because Linux is closely based on UNIX.  Linux is considered a ‘UNIX-Like’ system.
+
+&emsp;Mac OS X
+
+Mac OS has a majority of its components built in C. The Mac OS kernel, called Darwin -  which is closely related to BSD (Berkley Software Distribution, another UNIX variant) - is almost entirely written in C with a smattering of Assembly tossed in. Although, over time many parts of Mac OS have been developed in Objective-C, a distant descendant, as well as the more recent Swift.
+
+&emsp;Windows
+
+Windows has its kernel written mostly in C, though a large portion of the system is also in C++, along with C#. But nobody likes Windows anyway.
+
+&emsp;iOS
+
+Having its roots in the Mac OS X operating system, the iOS kernel is written in C.
+
+&emsp;Android
+
+A heavily modified version of Linux, the Android kernel bares a striking resemblance to its Linux relative, again almost entirely in C.	
+	
+
+The most popular and widely used database software, such as Oracle, MySQL, and Microsoft SQL Server are coded almost entirely in C, with an added helping of C++ thrown in for good measure.
+
+And lastly, the multitude of embedded systems, TVs, radios, appliances. All C. All the time.
+
+<i>The Too-Long, Didn’t Read?<i>
+
+C is the Betty White of languages. Flexible, fast, efficient, and used everywhere. And it’s still got a lot of life left to live.</p>
                     </div><!-- /.blog-post -->
 
                     <div class="blog-post">
